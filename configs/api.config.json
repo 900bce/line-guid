@@ -1,0 +1,5 @@
+{
+  "getLineTokensUrl": "https://api.line.me/oauth2/v2.1/token",
+  "getLineProfileUrl": "https://api.line.me/v2/profile",
+  "encryptUrl": "http://itriptaiwan.megatime.com.tw/drawwebservice/drawwebservice.asmx/EncryptCreate"
+}
