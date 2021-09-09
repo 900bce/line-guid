@@ -9,6 +9,8 @@ const redirectUri = gameConfig.redirectUri;
 const gameUrl = gameConfig.gameUrl;
 
 const getLineGameGuid = async (req, res) => {
+  res.header('Access-Control-Allow-Origin', '*');
+
   const { code } = req.query;
 
   if (!code) {
